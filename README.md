@@ -14,5 +14,6 @@ _As this project is part of the grant program of Starkware, the rollup will be v
 - There will be one centralized sequencer: Madara
 - Centralized prover: Sharp
 - Usage of ordinals to store the state / validity proofs on Data Availability Layer, Bitcoin
-- 
+- A trusted bridge to transfer funds L1 <> L2
 - Light nodes will be able to be verifiers by checking the Data Availability layer.
+
