@@ -11,9 +11,13 @@ If the nodes verify a transaction that was published to the DA layer and it's in
 
 _As this project is part of the grant program of Starkware, the rollup will be very similar to Starknet._
 
-- There will be one centralized sequencer: Madara
 - Centralized prover: Sharp
-- Usage of ordinals to store the state / validity proofs on Data Availability Layer, Bitcoin
+- There will be one centralized sequencer: Madara
+- Usage of ordinals to store the state transitions / validity proofs on the Data Availability Layer, Bitcoin
 - A trusted bridge to transfer funds L1 <> L2
 - Light nodes will be able to be verifiers by checking the Data Availability layer.
+- Smart contract account logic
 
+## Objectives
+
+Having a functioning Sovereign Rollup on top of Bitcoin, able to process transactions and supporting smart contracts written in Turing complete language, Cairo.
