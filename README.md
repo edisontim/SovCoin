@@ -13,11 +13,16 @@ _As this project is part of the grant program of Starkware, the rollup will be v
 
 - Centralized prover: Sharp
 - There will be one centralized sequencer: Madara
-- Usage of ordinals to store the state transitions / validity proofs on the Data Availability Layer, Bitcoin
+- Usage of ordinals to store the state transitions / validity proofs / transaction data on the Data Availability Layer, Bitcoin
 - A trusted bridge to transfer funds L1 <> L2
-- Light nodes will be able to be verifiers by checking the Data Availability layer.
 - Smart contract account logic
+- Full nodes verify blocks created by the Sequencer.
 
-## Objectives
+## Objective
 
 Having a functioning Sovereign Rollup on top of Bitcoin, able to process transactions and supporting smart contracts written in Turing complete language, Cairo.
+
+## Design ideas
+
+- In case the Prover emits an invalid transaction picked up by a Node, the verifiers will be able to vote to close the bridge, forcing the sequencer to revert the invalid transaction.
+- If the recursive covenants are added to Bitcoin, make the bridge trustless.
