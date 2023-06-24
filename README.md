@@ -20,7 +20,7 @@ _As this project is part of the grant program of Starkware, the rollup will be v
 
 ## Objective
 
-Having a functioning Sovereign Rollup on top of Bitcoin, able to process transactions and supporting smart contracts written in Turing complete language, Cairo.
+Having a functioning sovereign rollup on top of Bitcoin, able to process transactions and supporting smart contracts written in Turing-complete language, Cairo.
 
 ## Design ideas
 
