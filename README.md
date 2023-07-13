@@ -1,6 +1,6 @@
-# SovereignCoin
+# SovCoin
 
-SovereignCoin is a proof-of-concept sovereign zk-rollup built on top of Bitcoin.
+SovCoin is a proof-of-concept sovereign zk-rollup built on top of Bitcoin.
 
 ## Sovereign rollups
 
