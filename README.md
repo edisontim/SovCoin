@@ -11,8 +11,7 @@ If the nodes verify a transaction that was published to the DA layer and it's in
 
 _As this project is part of the grant program of Starkware, the rollup will be very similar to Starknet._
 
-- Centralized prover: Sharp
-- There will be one centralized sequencer: Madara
+- Usage of starknet_stack: this implies a decentralized sequencer and centralized prover
 - Usage of ordinals to store the state transitions / validity proofs / transaction data on the Data Availability Layer, Bitcoin
 - A trusted bridge to transfer funds L1 <> L2
 - Smart contract account logic
